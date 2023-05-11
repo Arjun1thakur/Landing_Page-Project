@@ -49,7 +49,7 @@ app.post('/api/clearimg',async(req,res)=>{
     if(!img){
         res.status(400).send({message:"Sorry"})
     }
-    res.status(400).send({message:"Done bro.."})
+    res.status(200).send({message:"Done bro.."})
 })
 
 
